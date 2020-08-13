@@ -1,4 +1,5 @@
 # cannot define multiple __init__() methode in Python
+# __ before any methode or arguments is stand for private access modifier
 
 class Person:
 
