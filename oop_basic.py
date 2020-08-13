@@ -1,8 +1,6 @@
-class Person:
+# cannot define multiple __init__() methode in Python
 
-    def __init__(self):
-        self.__name = None
-        self.__age = None
+class Person:
 
     def __init__(self, name: str, age: int):
         self.__name = name
