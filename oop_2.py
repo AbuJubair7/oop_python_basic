@@ -8,7 +8,7 @@
 class ListOfItem:
     name = "Jubair"  # static member variable
 
-    def __init__(self, items=list()):  # example of passing a list as a argument in methode
+    def __init__(self, items=list()):  # example of passing a default list as a argument in methode
         self.__items = items
 
     def add_item(self, i: str):
